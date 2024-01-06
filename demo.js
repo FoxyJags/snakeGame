@@ -28,8 +28,8 @@ let foodY2;
 let foodY1;
 let score = 0;
 
-// var image = new Image();
-// image.src = "funnyfattiktoker.jpg"; 
+var image = new Image();
+image.src = "funnyfattiktoker.jpg"; 
 
 
 
@@ -94,15 +94,14 @@ else{
 
 function clearBoard(){
 
-     ctx.fillStyle = boardBackground;
-    ctx.fillRect(0, 0, gameWidth, gameHeight);
+   
 
-  // drawImage(image,0,0,gameWidth,gameheight);
+  drawImage(image,0,0,gameWidth,gameheight);
 
   
 
-  // function drawImage(src,x,y,w,h){
-  // ctx.drawImage(src,x,y,w,h);
+  function drawImage(src,x,y,w,h){
+  ctx.drawImage(src,x,y,w,h);
 
  }
 
@@ -222,24 +221,24 @@ function changeDirection(event){
 };
 
 function checkGameOver(){
- // switch(true)
- // {
- //  case (snake[0].x < 0):
- //    running = false;
- //    break;
+ switch(true)
+ {
+  case (snake[0].x < 0):
+    running = false;
+    break;
 
- //   case (snake[0].x >= gameWidth):
- //    running = false;
- //    break;
+   case (snake[0].x >= gameWidth):
+    running = false;
+    break;
 
- //   case (snake[0].y < 0):
- //    running = false;
- //    break; 
+   case (snake[0].y < 0):
+    running = false;
+    break; 
 
- //    case (snake[0].y >= gameWidth):
- //      running = false;
- //      break;
- // }
+    case (snake[0].y >= gameWidth):
+      running = false;
+      break;
+ }
 
  if(snake.length==0)
  {
