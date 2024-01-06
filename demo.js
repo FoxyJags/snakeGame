@@ -31,7 +31,6 @@ let score = 0;
 var image = new Image();
 image.src = "funnyfattiktoker.jpg"; 
 
-let blendApplied = false;
 
 
 
