@@ -3,7 +3,7 @@
 }
 #gameBoard{
     border: 3px solid;
-    background-image: url(./Image/funnyfattiktoker.jpg);
+    background-image: url(funnyfattiktoker.jpg);
   /*  background-color: rgb(139, 107, 65);
     background-blend-mode: color-dodge; */
     background-size: contain;
