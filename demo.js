@@ -222,24 +222,24 @@ function changeDirection(event){
 };
 
 function checkGameOver(){
- switch(true)
- {
-  case (snake[0].x < 0):
-    running = false;
-    break;
+ // switch(true)
+ // {
+ //  case (snake[0].x < 0):
+ //    running = false;
+ //    break;
 
-   case (snake[0].x >= gameWidth):
-    running = false;
-    break;
+ //   case (snake[0].x >= gameWidth):
+ //    running = false;
+ //    break;
 
-   case (snake[0].y < 0):
-    running = false;
-    break; 
+ //   case (snake[0].y < 0):
+ //    running = false;
+ //    break; 
 
-    case (snake[0].y >= gameWidth):
-      running = false;
-      break;
- }
+ //    case (snake[0].y >= gameWidth):
+ //      running = false;
+ //      break;
+ // }
 
  if(snake.length==0)
  {
