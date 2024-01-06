@@ -101,10 +101,6 @@ function clearBoard(){
 
   function drawImage(src,x,y,w,h){
   ctx.drawImage(src,x,y,w,h);
-  
-  
-  
-  
 
  }
 
