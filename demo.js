@@ -28,8 +28,8 @@ let foodY2;
 let foodY1;
 let score = 0;
 
-var image = new Image();
-image.src = "funnyfattiktoker.jpg"; 
+// var image = new Image();
+// image.src = "funnyfattiktoker.jpg"; 
 
 
 
