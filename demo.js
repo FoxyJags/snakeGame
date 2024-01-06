@@ -94,12 +94,15 @@ else{
 
 function clearBoard(){
 
-  drawImage(image,0,0,gameWidth,gameheight);
+     ctx.fillStyle = boardBackground;
+    ctx.fillRect(0, 0, gameWidth, gameHeight);
+
+  // drawImage(image,0,0,gameWidth,gameheight);
 
   
 
-  function drawImage(src,x,y,w,h){
-  ctx.drawImage(src,x,y,w,h);
+  // function drawImage(src,x,y,w,h){
+  // ctx.drawImage(src,x,y,w,h);
 
  }
 
