@@ -29,7 +29,7 @@ let foodY1;
 let score = 0;
 
 var image = new Image();
-image.src = "./Image/funnyfattiktoker.jpg"; 
+image.src = "funnyfattiktoker.jpg"; 
 
 let blendApplied = false;
 
